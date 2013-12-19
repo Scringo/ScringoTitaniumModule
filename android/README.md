@@ -5,6 +5,10 @@
 Now you can create and manage your mobile community with Scringo for Appcelerator Titanium platform. For more information go to <http://www.scringo.com>.
 The Scringo version used is 2.5.3.
 
+Note: Currently, there is no Facebook integration.
+
+Note: Currently, Scringo's In-App Billing is disabled.
+
 ## Requirements
 
 Add this to the <android /> node in tiapp.xml:
