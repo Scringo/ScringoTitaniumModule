@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComScringoTiModuleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComScringoTiModuleModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComScringoTiModuleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComScringoTiModuleModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.m */; };
+		A948078C18575B9500C6A240 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A948078B18575B9500C6A240 /* FacebookSDK.framework */; };
+		A9480C96186335EC00C6A240 /* SCChatRoomTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C7D186335EC00C6A240 /* SCChatRoomTopic.h */; };
+		A9480C97186335EC00C6A240 /* SCQuiz.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C7E186335EC00C6A240 /* SCQuiz.h */; };
+		A9480C98186335EC00C6A240 /* Scringo.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C7F186335EC00C6A240 /* Scringo.h */; };
+		A9480C99186335EC00C6A240 /* ScringoAds.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C80186335EC00C6A240 /* ScringoAds.h */; };
+		A9480C9A186335EC00C6A240 /* ScringoAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C81186335EC00C6A240 /* ScringoAgent.h */; };
+		A9480C9B186335EC00C6A240 /* ScringoApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C82186335EC00C6A240 /* ScringoApi.h */; };
+		A9480C9C186335EC00C6A240 /* ScringoChatRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C83186335EC00C6A240 /* ScringoChatRoom.h */; };
+		A9480C9D186335EC00C6A240 /* ScringoChatRoomComment.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C84186335EC00C6A240 /* ScringoChatRoomComment.h */; };
+		A9480C9E186335EC00C6A240 /* ScringoChatRoomsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C85186335EC00C6A240 /* ScringoChatRoomsViewController.h */; };
+		A9480C9F186335EC00C6A240 /* ScringoChatsHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C86186335EC00C6A240 /* ScringoChatsHistoryViewController.h */; };
+		A9480CA0186335EC00C6A240 /* ScringoCommentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C87186335EC00C6A240 /* ScringoCommentButton.h */; };
+		A9480CA1186335EC00C6A240 /* ScringoFeedbackTalkToUsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C88186335EC00C6A240 /* ScringoFeedbackTalkToUsViewController.h */; };
+		A9480CA2186335EC00C6A240 /* ScringoFeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C89186335EC00C6A240 /* ScringoFeedbackViewController.h */; };
+		A9480CA3186335EC00C6A240 /* ScringoFeedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8A186335EC00C6A240 /* ScringoFeedViewController.h */; };
+		A9480CA4186335EC00C6A240 /* ScringoGeneralFeatureViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8B186335EC00C6A240 /* ScringoGeneralFeatureViewController.h */; };
+		A9480CA5186335EC00C6A240 /* ScringoInviteSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8C186335EC00C6A240 /* ScringoInviteSelectionViewController.h */; };
+		A9480CA6186335EC00C6A240 /* ScringoLeaderboardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8D186335EC00C6A240 /* ScringoLeaderboardViewController.h */; };
+		A9480CA7186335EC00C6A240 /* ScringoLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8E186335EC00C6A240 /* ScringoLikeButton.h */; };
+		A9480CA8186335EC00C6A240 /* ScringoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C8F186335EC00C6A240 /* ScringoMessage.h */; };
+		A9480CA9186335EC00C6A240 /* ScringoOtherUserProfileViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C90186335EC00C6A240 /* ScringoOtherUserProfileViewController.h */; };
+		A9480CAA186335EC00C6A240 /* ScringoRadarMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C91186335EC00C6A240 /* ScringoRadarMapViewController.h */; };
+		A9480CAB186335EC00C6A240 /* ScringoStyleSheetProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C92186335EC00C6A240 /* ScringoStyleSheetProtocol.h */; };
+		A9480CAC186335EC00C6A240 /* ScringoUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C93186335EC00C6A240 /* ScringoUser.h */; };
+		A9480CAD186335EC00C6A240 /* ScringoUserProfileViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C94186335EC00C6A240 /* ScringoUserProfileViewController.h */; };
+		A9480CAE186335EC00C6A240 /* ScringoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9480C95186335EC00C6A240 /* ScringoViewController.h */; };
+		A9480CB0186335F600C6A240 /* Scringo in Frameworks */ = {isa = PBXBuildFile; fileRef = A9480CAF186335F600C6A240 /* Scringo */; };
+		AA747D9F0F9514B9006C5449 /* ComScringoTiModule_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComScringoTiModule_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = scringo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComScringoTiModuleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComScringoTiModuleModule.h; path = Classes/ComScringoTiModuleModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComScringoTiModuleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComScringoTiModuleModule.m; path = Classes/ComScringoTiModuleModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComScringoTiModuleModuleAssets.h; path = Classes/ComScringoTiModuleModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComScringoTiModuleModuleAssets.m; path = Classes/ComScringoTiModuleModuleAssets.m; sourceTree = "<group>"; };
+		A948078B18575B9500C6A240 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		A9480C7D186335EC00C6A240 /* SCChatRoomTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChatRoomTopic.h; sourceTree = "<group>"; };
+		A9480C7E186335EC00C6A240 /* SCQuiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCQuiz.h; sourceTree = "<group>"; };
+		A9480C7F186335EC00C6A240 /* Scringo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scringo.h; sourceTree = "<group>"; };
+		A9480C80186335EC00C6A240 /* ScringoAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoAds.h; sourceTree = "<group>"; };
+		A9480C81186335EC00C6A240 /* ScringoAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoAgent.h; sourceTree = "<group>"; };
+		A9480C82186335EC00C6A240 /* ScringoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoApi.h; sourceTree = "<group>"; };
+		A9480C83186335EC00C6A240 /* ScringoChatRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoChatRoom.h; sourceTree = "<group>"; };
+		A9480C84186335EC00C6A240 /* ScringoChatRoomComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoChatRoomComment.h; sourceTree = "<group>"; };
+		A9480C85186335EC00C6A240 /* ScringoChatRoomsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoChatRoomsViewController.h; sourceTree = "<group>"; };
+		A9480C86186335EC00C6A240 /* ScringoChatsHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoChatsHistoryViewController.h; sourceTree = "<group>"; };
+		A9480C87186335EC00C6A240 /* ScringoCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoCommentButton.h; sourceTree = "<group>"; };
+		A9480C88186335EC00C6A240 /* ScringoFeedbackTalkToUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoFeedbackTalkToUsViewController.h; sourceTree = "<group>"; };
+		A9480C89186335EC00C6A240 /* ScringoFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoFeedbackViewController.h; sourceTree = "<group>"; };
+		A9480C8A186335EC00C6A240 /* ScringoFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoFeedViewController.h; sourceTree = "<group>"; };
+		A9480C8B186335EC00C6A240 /* ScringoGeneralFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoGeneralFeatureViewController.h; sourceTree = "<group>"; };
+		A9480C8C186335EC00C6A240 /* ScringoInviteSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoInviteSelectionViewController.h; sourceTree = "<group>"; };
+		A9480C8D186335EC00C6A240 /* ScringoLeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoLeaderboardViewController.h; sourceTree = "<group>"; };
+		A9480C8E186335EC00C6A240 /* ScringoLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoLikeButton.h; sourceTree = "<group>"; };
+		A9480C8F186335EC00C6A240 /* ScringoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoMessage.h; sourceTree = "<group>"; };
+		A9480C90186335EC00C6A240 /* ScringoOtherUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoOtherUserProfileViewController.h; sourceTree = "<group>"; };
+		A9480C91186335EC00C6A240 /* ScringoRadarMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoRadarMapViewController.h; sourceTree = "<group>"; };
+		A9480C92186335EC00C6A240 /* ScringoStyleSheetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoStyleSheetProtocol.h; sourceTree = "<group>"; };
+		A9480C93186335EC00C6A240 /* ScringoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoUser.h; sourceTree = "<group>"; };
+		A9480C94186335EC00C6A240 /* ScringoUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoUserProfileViewController.h; sourceTree = "<group>"; };
+		A9480C95186335EC00C6A240 /* ScringoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScringoViewController.h; sourceTree = "<group>"; };
+		A9480CAF186335F600C6A240 /* Scringo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Scringo; path = lib/Scringo; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComScringoTiModule_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComScringoTiModule_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComScringoTiModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComScringoTiModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9480CB0186335F600C6A240 /* Scringo in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				A948078C18575B9500C6A240 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComScringoTiModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* scringo */ = {
+			isa = PBXGroup;
+			children = (
+				A9480CAF186335F600C6A240 /* Scringo */,
+				A9480C7C186335EC00C6A240 /* Headers */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = scringo;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A948078B18575B9500C6A240 /* FacebookSDK.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComScringoTiModuleModule.h */,
+				24DD6CF81134B3F500162E58 /* ComScringoTiModuleModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComScringoTiModule_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A9480C7C186335EC00C6A240 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A9480C7D186335EC00C6A240 /* SCChatRoomTopic.h */,
+				A9480C7E186335EC00C6A240 /* SCQuiz.h */,
+				A9480C7F186335EC00C6A240 /* Scringo.h */,
+				A9480C80186335EC00C6A240 /* ScringoAds.h */,
+				A9480C81186335EC00C6A240 /* ScringoAgent.h */,
+				A9480C82186335EC00C6A240 /* ScringoApi.h */,
+				A9480C83186335EC00C6A240 /* ScringoChatRoom.h */,
+				A9480C84186335EC00C6A240 /* ScringoChatRoomComment.h */,
+				A9480C85186335EC00C6A240 /* ScringoChatRoomsViewController.h */,
+				A9480C86186335EC00C6A240 /* ScringoChatsHistoryViewController.h */,
+				A9480C87186335EC00C6A240 /* ScringoCommentButton.h */,
+				A9480C88186335EC00C6A240 /* ScringoFeedbackTalkToUsViewController.h */,
+				A9480C89186335EC00C6A240 /* ScringoFeedbackViewController.h */,
+				A9480C8A186335EC00C6A240 /* ScringoFeedViewController.h */,
+				A9480C8B186335EC00C6A240 /* ScringoGeneralFeatureViewController.h */,
+				A9480C8C186335EC00C6A240 /* ScringoInviteSelectionViewController.h */,
+				A9480C8D186335EC00C6A240 /* ScringoLeaderboardViewController.h */,
+				A9480C8E186335EC00C6A240 /* ScringoLikeButton.h */,
+				A9480C8F186335EC00C6A240 /* ScringoMessage.h */,
+				A9480C90186335EC00C6A240 /* ScringoOtherUserProfileViewController.h */,
+				A9480C91186335EC00C6A240 /* ScringoRadarMapViewController.h */,
+				A9480C92186335EC00C6A240 /* ScringoStyleSheetProtocol.h */,
+				A9480C93186335EC00C6A240 /* ScringoUser.h */,
+				A9480C94186335EC00C6A240 /* ScringoUserProfileViewController.h */,
+				A9480C95186335EC00C6A240 /* ScringoViewController.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9480C9D186335EC00C6A240 /* ScringoChatRoomComment.h in Headers */,
+				A9480CA6186335EC00C6A240 /* ScringoLeaderboardViewController.h in Headers */,
+				A9480CA4186335EC00C6A240 /* ScringoGeneralFeatureViewController.h in Headers */,
+				A9480C9A186335EC00C6A240 /* ScringoAgent.h in Headers */,
+				A9480C98186335EC00C6A240 /* Scringo.h in Headers */,
+				A9480CAB186335EC00C6A240 /* ScringoStyleSheetProtocol.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComScringoTiModule_Prefix.pch in Headers */,
+				A9480C99186335EC00C6A240 /* ScringoAds.h in Headers */,
+				A9480CAD186335EC00C6A240 /* ScringoUserProfileViewController.h in Headers */,
+				A9480C9F186335EC00C6A240 /* ScringoChatsHistoryViewController.h in Headers */,
+				A9480C96186335EC00C6A240 /* SCChatRoomTopic.h in Headers */,
+				A9480C9C186335EC00C6A240 /* ScringoChatRoom.h in Headers */,
+				A9480C9B186335EC00C6A240 /* ScringoApi.h in Headers */,
+				A9480CA7186335EC00C6A240 /* ScringoLikeButton.h in Headers */,
+				A9480C9E186335EC00C6A240 /* ScringoChatRoomsViewController.h in Headers */,
+				A9480CA0186335EC00C6A240 /* ScringoCommentButton.h in Headers */,
+				A9480C97186335EC00C6A240 /* SCQuiz.h in Headers */,
+				A9480CAE186335EC00C6A240 /* ScringoViewController.h in Headers */,
+				24DD6CF91134B3F500162E58 /* ComScringoTiModuleModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.h in Headers */,
+				A9480CAA186335EC00C6A240 /* ScringoRadarMapViewController.h in Headers */,
+				A9480CA5186335EC00C6A240 /* ScringoInviteSelectionViewController.h in Headers */,
+				A9480CA9186335EC00C6A240 /* ScringoOtherUserProfileViewController.h in Headers */,
+				A9480CA2186335EC00C6A240 /* ScringoFeedbackViewController.h in Headers */,
+				A9480CA3186335EC00C6A240 /* ScringoFeedViewController.h in Headers */,
+				A9480CAC186335EC00C6A240 /* ScringoUser.h in Headers */,
+				A9480CA8186335EC00C6A240 /* ScringoMessage.h in Headers */,
+				A9480CA1186335EC00C6A240 /* ScringoFeedbackTalkToUsViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* scringo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "scringo" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scringo;
+			productName = scringo;
+			productReference = D2AAC07E0554694100DB518D /* libComScringoTiModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "scringo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				de,
+				el,
+				en,
+				es,
+				it,
+				nl,
+				"pt-BR",
+				pt,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* scringo */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* scringo */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* ComScringoTiModuleModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComScringoTiModuleModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* scringo */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComScringoTiModule.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HOME)/Documents/FacebookSDK",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComScringoTiModule_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComScringoTiModule;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComScringoTiModule.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HOME)/Documents/FacebookSDK",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComScringoTiModule_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComScringoTiModule;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComScringoTiModule.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComScringoTiModule_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComScringoTiModule;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComScringoTiModule.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComScringoTiModule_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComScringoTiModule;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "scringo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "scringo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

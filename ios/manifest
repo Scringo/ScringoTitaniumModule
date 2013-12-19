@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Scringo's Appcelerator plugin
+author: Guy Federovsky (support@scringo.com)
+license: Apache 2.0
+copyright: Copyright (c) 2013 by Scringo
+
+
+# these should not be edited
+name: scringo
+moduleid: com.scringo.ti.module
+guid: 341f20e1-9bd6-4156-875d-1a96b632c903
+platform: iphone
+minsdk: 3.1.3.GA
